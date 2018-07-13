@@ -115,9 +115,14 @@ header nav {
     z-index:999;
 }
 
+.container-fluid {
+    margin:0;
+}
+
     /* Remove the navbar's default margin-bottom and rounded borders */ 
 
 .navbar {
+
     margin-bottom: 0;
     border-radius: 0;
 }
@@ -232,18 +237,13 @@ tspan > tspan {
     width:40px;
 }
 
-.about_title {
-    width:60%;
-    border-left:1px solid black;
-    border-right:1px solid black;
-    border-radius:5px;
-    opacity:0.8;
-    margin:auto;
-}
-
-.about_title h2, .container h2 {
+.about_title h2, .container h2, .contact_title {
     font-size:2.5em;
     text-align:center;
+    width:60%;
+    opacity:0.8;
+    margin:5vh auto 12vh auto;
+    text-shadow:2px 3px lightgrey;
 }
 
 .about_photo_intro, .about_main {
@@ -270,14 +270,6 @@ tspan > tspan {
 }
 /* ====================== Galery Carousel ================= */
 
-.container h2 {
-    margin:4vh auto 4vh auto;
-    width:60%;
-    border-left:1px solid black;
-    border-right:1px solid black;
-    border-radius:5px;
-    opacity:0.8;
-}
 
 .container {
     width:70%;
@@ -295,6 +287,8 @@ tspan > tspan {
     background-color: #f4511e;
 }
 
+/* ===================== Rest of Gallery ================= */
+
 .flex-raw-photo-content {
     display:flex;
     flex-direction:row;
@@ -307,25 +301,22 @@ tspan > tspan {
 .flex-column-photo {
     display:flex;
     flex-direction:column;
-    margin-top:5vh;
+    margin-top:8vh;
     width:40%;
     text-align:center;
     padding-bottom:2vh;
-    border:2px solid grey;
+    border:1px solid grey;
     box-shadow:8px;
 }
 
 .flex-column-photo img {
-    width:50%;
+    width:100%;
     height:25vh;
 }
 
 .Description {
     margin-bottom:-2vh;
-}
-
-.Description h3 {
-    border-top:1px solid grey;
+    opacity:0.8;
 }
 
 .Description h3, .Description p {
@@ -333,7 +324,7 @@ tspan > tspan {
 }
 
 .Description h3, .Description p, .langage {
-    background-color:lightgrey;
+    background-color:#f5f5f0;
     margin:0;
     padding:0;
 }
@@ -341,37 +332,39 @@ tspan > tspan {
 .Description a {
     text-decoration:none;
     text-transform:uppercase;
-    color:black;
+    color:#ff6600;
 }
 
 .Description a:hover {
     text-decoration:underline;
+    color:#ff944d;
 }    
 
+/* ======================= Contact ======================= */
 
-.container-fluid, .bg-grey {
+.bg-grey {
     width:80%;
     margin:auto;
 }
 
-.contact_title {
-    width:60%;
-    border-left:1px solid black;
-    border-right:1px solid black;
-    border-radius:5px;
-    opacity:0.8;
-    margin:auto auto 8vh auto;
+/* ======================= Fixed nav ====================== */
+
+.fixed-back-top {
+    position:fixed;
+    bottom:1rem;
+    right:1rem;
 }
 
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #f4511e;
+.fixed-back-top img {
+    height:5vh;
+    width:2.5rem;
 }
+
+/* ======================== Footer ======================= */
+
 
 .glyphicon {
-    height:6vh;
-    width:5%;
+    image-orientation:-90deg;
 }
 
 
