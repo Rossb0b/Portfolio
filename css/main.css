@@ -184,12 +184,12 @@ svg {
     height: auto;
     fill: none;
     stroke: white;
-    stroke-width: 4;
+    stroke-width: 4px;
 }        
 
 tspan > tspan {
-        stroke-dasharray: 1500;
-        stroke-dashoffset: -1500;
+        stroke-dasharray: 1500px;
+        stroke-dashoffset: -1500px;
         animation: draw 3s forwards;
         animation-iteration-count:1;
 } 
@@ -308,7 +308,6 @@ tspan > tspan {
     text-align:center;
     padding-bottom:2vh;
     border:1px solid grey;
-    box-shadow:8px;
 }
 
 .flex-column-photo img {
