@@ -97,6 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ======================== Modification for index ! ========================== */
+
+
 header {
     height:100vh;
     width:100%;
@@ -112,16 +115,21 @@ header nav {
     z-index:999;
 }
 
+.container-fluid {
+    margin:0;
+}
+
     /* Remove the navbar's default margin-bottom and rounded borders */ 
 
 .navbar {
+
     margin-bottom: 0;
     border-radius: 0;
 }
 
 .logo {
     height:5vh;
-    width:8rem;
+    width:6rem;
     margin-top:-1vh;
 }
 
@@ -147,10 +155,6 @@ header nav {
 
 .animation_undraw:hover:before {
     content:"Nicely done ! Now please leave me";
-}
-
-.animation_undraw:hover.animation_bubulle:after {
-    content:"Nicely done ! Now leave me please :)";
 }
 
 .animation_undraw {
@@ -190,12 +194,6 @@ tspan > tspan {
         animation-iteration-count:1;
 } 
 
-/*#Name:hover tspan > tspan {
-    animation: undraw;
-} */   
-
-
-
 #movingone:hover tspan > tspan {
     transition-property:stroke;
     transition-color:black;
@@ -213,7 +211,164 @@ tspan > tspan {
 }
 
 
+/* ==================== Modification About ========================== */
 
+
+.about {
+    width:90%;
+    margin:auto;
+    color:black;
+    font-size:1.1em;
+}
+
+#transition_1, #transition_2, #transition_3 {
+    border-top:2px dotted grey;
+    border-bottom:2px dotted grey;
+    width:90%;
+    margin:6vh auto 8vh auto;
+    padding-bottom:1vh;
+    display:flex;
+    justify-content:space-around;
+}
+
+#transition_1 img, #transition_2 img, #transition_3 img {
+    margin-top:1vh;
+    height:40px;
+    width:40px;
+}
+
+.about_title h2, .container h2, .contact_title {
+    font-size:2.5em;
+    text-align:center;
+    width:60%;
+    opacity:0.8;
+    margin:5vh auto 12vh auto;
+    text-shadow:2px 3px lightgrey;
+    text-align:center;
+}
+
+.about_photo_intro, .about_main {
+    margin:auto;
+}
+
+.about_photo_intro {
+    width:80%;
+    margin-top:4vh;
+}
+
+.about_main {
+    width:90%;
+    margin-top:1vh;
+}
+
+.about_photo_intro img {
+    float:right;
+    padding:0 0 5% 5%;
+}
+
+.about_photo_intro, .about_main {
+    text-align:justify;
+}
+
+/* ====================== Galery Carousel ================= */
+
+
+.container {
+    width:70%;
+}
+
+.carousel-control.right, .carousel-control.left {
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+/* ===================== Rest of Gallery ================= */
+
+.flex-raw-photo-content {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:80%;
+    margin:8vh auto;
+}
+
+.flex-column-photo {
+    display:flex;
+    flex-direction:column;
+    margin-top:8vh;
+    width:40%;
+    text-align:center;
+    padding-bottom:2vh;
+    border:1px solid grey;
+    box-shadow:8px;
+}
+
+.flex-column-photo img {
+    width:100%;
+    height:25vh;
+}
+
+.Description {
+    margin-bottom:-2vh;
+    opacity:0.8;
+}
+
+.Description h3, .Description p {
+    word-wrap:break-word;
+    border-bottom:1px dotted grey;
+}
+
+.Description h3, .Description p, .langage {
+    background-color:#f5f5f0;
+    margin:0;
+    padding:0;
+}
+
+.Description a {
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#ff6600;
+}
+
+.Description a:hover {
+    text-decoration:underline;
+    color:#ff944d;
+}    
+
+/* ======================= Contact ======================= */
+
+.bg-grey {
+    width:80%;
+    margin:auto;
+}
+
+/* ======================= Fixed nav ====================== */
+
+.fixed-back-top {
+    position:fixed;
+    bottom:1rem;
+    right:0;
+}
+
+.fixed-back-top img {
+    height:5vh;
+    width:2.5rem;
+}
+
+/* ======================== Footer ======================= */
+
+
+.glyphicon {
+    image-orientation:-90deg;
+}
 
 
 
