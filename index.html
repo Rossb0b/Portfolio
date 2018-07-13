@@ -9,15 +9,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/NH.ico">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- Bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+
   <!-- Custom css -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
 
   <!-- Bootstrap script -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -41,13 +43,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#"><img src="img/NH.png" alt="logo Nicolas Hallaert" class="logo"></a>
+        <a class="navbar-brand" href="#"><img src="img/NH.ico" alt="logo Nicolas Hallaert" class="logo"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#transition_1">About</a></li>
-          <li><a href="#transition_2">Gallery</a></li>
+          <li><a href="#transition_1">Gallery</a></li>
+          <li><a href="#transition_2">About</a></li>
           <li><a href="#transition_3">Contact</a></li>
         </ul>
       </div>
@@ -96,7 +98,7 @@
 
 
   <div class="container">
-    <h2>My creations</h2>  
+    <h2>My creations</h2>    
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -138,8 +140,6 @@
       </a>
     </div>
   </div>
-
-
 
   <div class="flex-raw-photo-content">
     <div class="flex-column-photo">
@@ -240,14 +240,6 @@
   </div>
 </section>  
 
-
-
-
-
-
-
-
-
 <section>
 
   <div id="transition_2">
@@ -263,8 +255,8 @@
     </div>  
 
     <div class="about_photo_intro">
-      <img src="img/NH.png" alt="photo de moi-même">
-      <p>Hello ! <br />You must have get it, my name is Nicolas Hallaert, I'm 23 and I'm actually living at Lille in France.</p>
+      <img src="img/NH.ico" alt="photo de moi-même">
+      <p>Hello ! <br />You must have get it, my name is Nicolas Hallaert, I'm 23 and I currently live in Lille in France.</p>
       <p>Passionate by digital for 10 last years, I stopped my law studies to get closer to this passion. I'm actually in a Web development formation focused principaly on back-end development. Through this training, I'll learn about HTML5; CSS (SCSS / SASS); JavaScript; SQL; Php, but my main objectif is to perform into Jquerie and Python development learning. </p><p>I also like music (I introduced myself to piano for 1 years before I must stop, and I can appreciate any kind of music.); travel to other countries (even I'm in lack of experience.); sports and e-sports (VTT; natation / Counter-Strike;League of Legend;Rocket League or old games) or even board games.</p> 
 
     </div> 
@@ -314,7 +306,6 @@
 </div> 
 </section>
 
- 
 
 <footer class="container-fluid text-center">
   <nav class="fixed-back-top">
@@ -325,9 +316,6 @@
 
   <p>Portfolio made by <a href="">Me</a>; <a href="">Myself</a>; and<a href=""> I</a>. And <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
 </footer>
-
-
-
 
 
   <script>
@@ -348,7 +336,7 @@ $(document).ready(function(){
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
       scrollTop: $(hash).offset().top
-    }, 900, function(){
+    }, 1200, function(){
 
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
@@ -357,7 +345,6 @@ $(document).ready(function(){
   });
 })
   </script> 
-
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

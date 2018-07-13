@@ -129,7 +129,7 @@ header nav {
 
 .logo {
     height:5vh;
-    width:8rem;
+    width:6rem;
     margin-top:-1vh;
 }
 
@@ -244,6 +244,7 @@ tspan > tspan {
     opacity:0.8;
     margin:5vh auto 12vh auto;
     text-shadow:2px 3px lightgrey;
+    text-align:center;
 }
 
 .about_photo_intro, .about_main {
@@ -268,6 +269,7 @@ tspan > tspan {
 .about_photo_intro, .about_main {
     text-align:justify;
 }
+
 /* ====================== Galery Carousel ================= */
 
 
@@ -320,6 +322,7 @@ tspan > tspan {
 }
 
 .Description h3, .Description p {
+    word-wrap:break-word;
     border-bottom:1px dotted grey;
 }
 
@@ -352,7 +355,7 @@ tspan > tspan {
 .fixed-back-top {
     position:fixed;
     bottom:1rem;
-    right:1rem;
+    right:0;
 }
 
 .fixed-back-top img {
@@ -366,21 +369,6 @@ tspan > tspan {
 .glyphicon {
     image-orientation:-90deg;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
