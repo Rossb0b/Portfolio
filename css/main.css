@@ -106,6 +106,9 @@ textarea {
     font-size:1.2em;
 }
 
+h2 {
+    font-family: 'Chela One', cursive;
+}
 
 
 
@@ -263,6 +266,10 @@ tspan > tspan {
     margin:auto;
 }
 
+.about p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .about_photo_intro img {
     display:block;
     width:40%;
@@ -380,6 +387,14 @@ tspan > tspan {
     image-orientation:-90deg;
 }
 
+
+.icons img {
+    min-height:40px;
+    min-width:40px;
+
+    height:3vh;
+    width:2rem;
+}
 
 
 @media all and (min-width:767px) {
