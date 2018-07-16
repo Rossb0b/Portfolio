@@ -97,6 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+.container {
+    display:none;
+}
+
+.flex-raw-photo-content h3 {
+    font-size:1.2em;
+}
+
+
+
+
+
 /* ======================== Modification for index ! ========================== */
 
 
@@ -145,12 +158,11 @@ header nav {
 .animation_undraw:before {
     content:"Hey ! Come over me :)";
     color:white;
-    font-size:1.5em;
+    font-size:1.2em;
     display:block;
     width:40%;
     height:5vh;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin:auto 1rem auto auto;
 } 
 
 .animation_undraw:hover:before {
@@ -238,7 +250,7 @@ tspan > tspan {
 }
 
 .about_title h2, .container h2, .contact_title {
-    font-size:2.5em;
+    font-size:2em;
     text-align:center;
     width:60%;
     opacity:0.8;
@@ -251,6 +263,11 @@ tspan > tspan {
     margin:auto;
 }
 
+.about_photo_intro img {
+    display:block;
+    width:40%;
+    margin:auto auto 4vh auto;
+}
 .about_photo_intro {
     width:80%;
     margin-top:4vh;
@@ -259,11 +276,6 @@ tspan > tspan {
 .about_main {
     width:90%;
     margin-top:1vh;
-}
-
-.about_photo_intro img {
-    float:right;
-    padding:0 0 5% 5%;
 }
 
 .about_photo_intro, .about_main {
@@ -293,18 +305,17 @@ tspan > tspan {
 
 .flex-raw-photo-content {
     display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    flex-wrap:wrap;
+    flex-direction:column;
     width:80%;
-    margin:8vh auto;
+    margin:auto;
 }
 
 .flex-column-photo {
     display:flex;
     flex-direction:column;
     margin-top:8vh;
-    width:40%;
+    width:80%;
+    margin:0 auto 8vh auto;
     text-align:center;
     padding-bottom:2vh;
     border:1px solid grey;
@@ -371,6 +382,43 @@ tspan > tspan {
 
 
 
+@media all and (min-width:767px) {
+    .about_photo_intro img {
+    float:right;
+    padding:0 0 5% 5%;
+    }
+
+    .container {
+        display:block;
+    }
+
+    .flex-raw-photo-content h3 {
+        font-size:1.4em;
+    }
+
+    .animation_undraw:before {
+        font-size:1.5em;
+    }
+
+    .flex-raw-photo-content {
+        display:flex;
+        flex-direction:row;
+        border:2px solid red;
+        width:80%;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        margin:8vh auto 4vh auto;
+    }
+
+    .flex-column-photo {
+        display:block;
+        width:40%;
+    }
+
+    .about_title h2, .container h2, .contact_title {
+    font-size:2.5em;
+    }
+}
 
 
 
