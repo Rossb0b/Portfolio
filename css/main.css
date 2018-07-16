@@ -403,7 +403,6 @@ tspan > tspan {
     .flex-raw-photo-content {
         display:flex;
         flex-direction:row;
-        border:2px solid red;
         width:80%;
         justify-content:space-around;
         flex-wrap:wrap;
