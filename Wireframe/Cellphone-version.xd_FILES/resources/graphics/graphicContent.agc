@@ -1,0 +1,1 @@
+{"version":"1.5.0","children":[],"resources":{"gradients":{},"clipPaths":{},"meta":{"ux":{"symbols":[],"colorSwatches":[],"documentLibrary":{"version":3,"elements":[]}}}},"artboards":{"0a3eeb27-25ef-4ab4-8e57-5dea271e4314":{"width":768,"height":2320,"name":"Cellphone version","x":0,"y":0,"viewportHeight":1024}}}

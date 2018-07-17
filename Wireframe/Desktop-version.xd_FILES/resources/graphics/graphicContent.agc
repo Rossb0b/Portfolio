@@ -1,0 +1,1 @@
+{"version":"1.5.0","children":[],"resources":{"gradients":{},"clipPaths":{},"meta":{"ux":{"symbols":[],"colorSwatches":[],"documentLibrary":{"version":3,"elements":[]}}}},"artboards":{"ed2cb8bf-50f9-40e9-a3c8-3ad91b997b61":{"width":1920,"height":4938,"name":"Desktop version","x":0,"y":0,"viewportHeight":1080}}}
