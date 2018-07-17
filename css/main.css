@@ -308,6 +308,13 @@ tspan > tspan {
     background-color: #f4511e;
 }
 
+.Carousel_info {
+    text-align:center;
+    opacity:0.8;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ff6600;
+}
+
 /* ===================== Rest of Gallery ================= */
 
 .flex-raw-photo-content {
